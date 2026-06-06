@@ -1,0 +1,20 @@
+[
+  {
+    "model": "qwen2.5:3b",
+    "avg_speed_toks": 13.42,
+    "min_speed_toks": 13.1,
+    "avg_latency_s": 25.6,
+    "memory_gb": 2.15,
+    "n_prompts": 8,
+    "avg_quality": 4.5
+  },
+  {
+    "model": "qwen2.5:7b",
+    "avg_speed_toks": 6.24,
+    "min_speed_toks": 5.85,
+    "avg_latency_s": 51.2,
+    "memory_gb": 4.97,
+    "n_prompts": 8,
+    "avg_quality": 4.88
+  }
+]

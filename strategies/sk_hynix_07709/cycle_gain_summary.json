@@ -1,0 +1,62 @@
+{
+  "source_symbol": "000660.KS",
+  "currency": "KRW",
+  "regular_market_price": 1880000.0,
+  "fifty_two_week_high": 1949000.0,
+  "fifty_two_week_low": 193500.0,
+  "history_start": "2000-01-04",
+  "history_end": "2026-05-11",
+  "history_rows": 6588,
+  "max_drawup_all_history": {
+    "low_date": "2003-03-26",
+    "low_close": 2835.0,
+    "high_date": "2026-05-11",
+    "high_close": 1880000.0,
+    "close_multiple": 663.1393298059965,
+    "close_gain": 662.1393298059965
+  },
+  "prior_cycle_max": {
+    "cycle_id": "dotcom_dram_recovery",
+    "label": "Dot-com/DRAM recovery",
+    "low_date": "2003-03-26",
+    "low_close": 2835.0,
+    "low_intraday": 2625.0,
+    "high_date": "2006-09-18",
+    "high_close": 40150.0,
+    "high_intraday": 40250.0,
+    "close_multiple": 14.16225749559083,
+    "close_gain": 13.16225749559083,
+    "intraday_low_to_high_multiple": 15.333333333333334,
+    "intraday_low_to_high_gain": 14.333333333333334
+  },
+  "current_from_2022_trough": {
+    "cycle_id": "current_from_2022_trough",
+    "label": "Current AI/HBM cycle from 2022 trough",
+    "low_date": "2022-12-29",
+    "low_close": 75000.0,
+    "low_intraday": 74700.0,
+    "high_date": "2026-05-11",
+    "high_close": 1880000.0,
+    "high_intraday": 1949000.0,
+    "close_multiple": 25.066666666666666,
+    "close_gain": 24.066666666666666,
+    "intraday_low_to_high_multiple": 26.09103078982597,
+    "intraday_low_to_high_gain": 25.09103078982597
+  },
+  "current_from_2024_selloff": {
+    "cycle_id": "current_from_2024_selloff",
+    "label": "Current HBM leg from 2024 selloff",
+    "low_date": "2024-08-05",
+    "low_close": 156100.0,
+    "low_intraday": 151600.0,
+    "high_date": "2026-05-11",
+    "high_close": 1880000.0,
+    "high_intraday": 1949000.0,
+    "close_multiple": 12.043561819346573,
+    "close_gain": 11.043561819346573,
+    "intraday_low_to_high_multiple": 12.856200527704486,
+    "intraday_low_to_high_gain": 11.856200527704486
+  },
+  "current_exceeds_prior_cycle_max": true,
+  "current_hbm_leg_exceeds_prior_cycle_max": false
+}

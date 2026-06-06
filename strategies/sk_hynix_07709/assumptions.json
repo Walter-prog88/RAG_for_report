@@ -1,0 +1,74 @@
+{
+  "as_of": "2026-05-11",
+  "underlying": {
+    "name": "SK hynix Inc.",
+    "ticker": "000660.KS",
+    "reference_price_krw": 1880000,
+    "reference_price_date": "2026-05-11",
+    "goldman_target_krw": 1350000,
+    "goldman_target_date": "2026-03-12",
+    "goldman_rating": "Buy"
+  },
+  "product": {
+    "name": "CSOP SK Hynix Daily (2x) Leveraged Product",
+    "ticker": "07709.HK",
+    "current_price_hkd": 100.0,
+    "current_price_date": "2026-05-11",
+    "current_price_note": "User-observed approximate market price; override with --etf-price for exact quote.",
+    "reference_nav_hkd": 78.339,
+    "reference_nav_date": "2026-05-08",
+    "leverage": 2.0,
+    "annual_ongoing_charge": 0.02,
+    "estimated_annual_tracking_difference": -0.0015
+  },
+  "scenario": {
+    "holding_days": 30,
+    "decay_rates": [0.0, 0.03, 0.06, 0.1],
+    "premium_discount_rates": [-0.03, 0.0, 0.03]
+  },
+  "target_anchors": [
+    {
+      "name": "goldman_base",
+      "label": "Goldman old target",
+      "target_krw": 1350000,
+      "date": "2026-03-12",
+      "stance": "base_but_stale",
+      "source_note": "Goldman Sachs target reported by Investing.com; now below spot."
+    },
+    {
+      "name": "consensus_avg",
+      "label": "Consensus average",
+      "target_krw": 1771866.34,
+      "date": "2026-05-06",
+      "stance": "market_base",
+      "source_note": "MarketScreener average target cited by EBC Financial Group."
+    },
+    {
+      "name": "high_target",
+      "label": "Street high target",
+      "target_krw": 2500000,
+      "date": "2026-05-06",
+      "stance": "optimistic",
+      "source_note": "MarketScreener high target cited by EBC Financial Group."
+    },
+    {
+      "name": "bull_case_3m",
+      "label": "Bull case",
+      "target_krw": 3000000,
+      "date": "2026-05-07",
+      "stance": "bull_case",
+      "source_note": "SK Securities 3M target via Maeil Business Newspaper, cited by EBC Financial Group."
+    }
+  ],
+  "valuation_context": {
+    "market_cap_krw": 1183050000000000,
+    "ttm_revenue_krw": 132080000000000,
+    "ps_ratio": 8.96,
+    "q1_2026_revenue_krw": 52576300000000,
+    "q1_2026_operating_profit_krw": 37610300000000,
+    "q1_2026_operating_margin": 0.72,
+    "goldman_2026_operating_profit_krw": 202000000000000,
+    "sk_securities_2026_operating_profit_krw": 262000000000000,
+    "sk_securities_2027_operating_profit_krw": 376000000000000
+  }
+}

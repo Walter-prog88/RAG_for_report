@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+.cache/
+.idea/
+
+Fin-RAG-Knowledge-Base/.venv/
+Fin-RAG-Knowledge-Base/data/index/
+tushare_quant/quant_data_*/
