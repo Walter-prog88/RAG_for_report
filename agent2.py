@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 from alpaca.data.historical import StockHistoricalDataClient
@@ -8,7 +9,7 @@ from datetime import datetime, timedelta
 # ==========================================
 # 1. 配置区：请在此处填入你的 Alpaca 密钥
 # ==========================================
-API_KEY = 'YOUR_API_KEY_HERE'
+API_KEY = os.environ["OPENAI_API_KEY"]
 SECRET_KEY = 'YOUR_SECRET_KEY_HERE'
 SYMBOL = 'TQQQ'  # 你也可以换成 'SOXL'
 
