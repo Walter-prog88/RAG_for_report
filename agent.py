@@ -6,7 +6,7 @@ import akshare as ak
 
 # --- 配置区 ---
 FIRECRAWL_KEY = "fc-55132cab79b141c9a071a67bff11d736"
-GEMINI_API_KEY = "AIzaSyBr8PHg9n1ms-ZfM1aXVy3auLLFeUpHyRY"
+GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 MONITOR_URL = "https://www.federalreserve.gov/newsevents/pressreleases.htm"
 
 
